@@ -1,0 +1,7 @@
+2026-05-18 06:56:34 [[31merror[39m]: Error: Failed to parse private key: Error: Invalid PEM formatted message.
+    at new ServiceAccount (C:\Users\nguye\Desktop\project\wcjs\backend\node_modules\firebase-admin\lib\app\credential-internal.js:153:19)
+    at new ServiceAccountCredential (C:\Users\nguye\Desktop\project\wcjs\backend\node_modules\firebase-admin\lib\app\credential-internal.js:70:15)
+    at Object.cert (C:\Users\nguye\Desktop\project\wcjs\backend\node_modules\firebase-admin\lib\app\credential-factory.js:103:54)
+    at initializeFirebase (C:\Users\nguye\Desktop\project\wcjs\backend\dist\config\firebase.js:18:57)
+    at bootstrap (C:\Users\nguye\Desktop\project\wcjs\backend\dist\app.js:74:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
